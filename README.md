@@ -8,13 +8,12 @@
 现支持三种消息提示：
 > *正常数字显示，类似QQ，添加了拉伸和取消动画
 NUMBER_BADGE_VIEW
-![cmd-markdown-logo](https://s1.ax1x.com/2018/02/23/9UTGDA.png)
 > *最简单的细小红点
 DOT_BADGE_VIEW
-![cmd-markdown-logo](https://s1.ax1x.com/2018/02/23/9UTJHI.png)
 > *new图标
 NEW_BADGE_VIEW
-![cmd-markdown-logo](https://s1.ax1x.com/2018/02/23/9UT8ud.png)
+![cmd-markdown-logo](https://s1.ax1x.com/2018/02/23/9U7ERS.png)
+
 
 
 
