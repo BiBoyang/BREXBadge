@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1462E41203FCEE800D595CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E40203FCEE800D595CF /* AppDelegate.m */; };
+		F1462E44203FCEE800D595CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E43203FCEE800D595CF /* ViewController.m */; };
+		F1462E47203FCEE800D595CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1462E45203FCEE800D595CF /* Main.storyboard */; };
+		F1462E49203FCEE800D595CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1462E48203FCEE800D595CF /* Assets.xcassets */; };
+		F1462E4C203FCEE800D595CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1462E4A203FCEE800D595CF /* LaunchScreen.storyboard */; };
+		F1462E4F203FCEE800D595CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E4E203FCEE800D595CF /* main.m */; };
+		F1462E59203FCEE800D595CF /* BREXBadgeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E58203FCEE800D595CF /* BREXBadgeViewDemoTests.m */; };
+		F1462E64203FCEE800D595CF /* BREXBadgeViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E63203FCEE800D595CF /* BREXBadgeViewDemoUITests.m */; };
+		F1462EA4203FCF7800D595CF /* BREXBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E9D203FCF7800D595CF /* BREXBadgeView.m */; };
+		F1462EA5203FCF7800D595CF /* BREXNumberBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E9E203FCF7800D595CF /* BREXNumberBadgeView.m */; };
+		F1462EA6203FCF7800D595CF /* BREXNewBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462E9F203FCF7800D595CF /* BREXNewBadgeView.m */; };
+		F1462EA7203FCF7800D595CF /* BREXDotBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462EA0203FCF7800D595CF /* BREXDotBadgeView.m */; };
+		F1462EAA203FDCFE00D595CF /* icon_new@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EA8203FDCFD00D595CF /* icon_new@3x.png */; };
+		F1462EAB203FDCFE00D595CF /* icon_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EA9203FDCFE00D595CF /* icon_new@2x.png */; };
+		F1462EB1203FE2A400D595CF /* unreadBomb_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EAC203FE2A300D595CF /* unreadBomb_3@2x.png */; };
+		F1462EB2203FE2A400D595CF /* unreadBomb_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EAD203FE2A300D595CF /* unreadBomb_4@2x.png */; };
+		F1462EB3203FE2A400D595CF /* unreadBomb_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EAE203FE2A300D595CF /* unreadBomb_1@2x.png */; };
+		F1462EB4203FE2A400D595CF /* unreadBomb_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EAF203FE2A400D595CF /* unreadBomb_2@2x.png */; };
+		F1462EB5203FE2A400D595CF /* unreadBomb_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1462EB0203FE2A400D595CF /* unreadBomb_5@2x.png */; };
+		F1462EB8203FE2AD00D595CF /* UIView+DragBlast.m in Sources */ = {isa = PBXBuildFile; fileRef = F1462EB7203FE2AD00D595CF /* UIView+DragBlast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1462E55203FCEE800D595CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1462E34203FCEE800D595CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1462E3B203FCEE800D595CF;
+			remoteInfo = BREXBadgeViewDemo;
+		};
+		F1462E60203FCEE800D595CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1462E34203FCEE800D595CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1462E3B203FCEE800D595CF;
+			remoteInfo = BREXBadgeViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1462E3C203FCEE800D595CF /* BREXBadgeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BREXBadgeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1462E3F203FCEE800D595CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1462E40203FCEE800D595CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1462E42203FCEE800D595CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1462E43203FCEE800D595CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1462E46203FCEE800D595CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1462E48203FCEE800D595CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1462E4B203FCEE800D595CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1462E4D203FCEE800D595CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1462E4E203FCEE800D595CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1462E54203FCEE800D595CF /* BREXBadgeViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BREXBadgeViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1462E58203FCEE800D595CF /* BREXBadgeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BREXBadgeViewDemoTests.m; sourceTree = "<group>"; };
+		F1462E5A203FCEE800D595CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1462E5F203FCEE800D595CF /* BREXBadgeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BREXBadgeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1462E63203FCEE800D595CF /* BREXBadgeViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BREXBadgeViewDemoUITests.m; sourceTree = "<group>"; };
+		F1462E65203FCEE800D595CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1462E9C203FCF7800D595CF /* BREXDotBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREXDotBadgeView.h; sourceTree = "<group>"; };
+		F1462E9D203FCF7800D595CF /* BREXBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BREXBadgeView.m; sourceTree = "<group>"; };
+		F1462E9E203FCF7800D595CF /* BREXNumberBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BREXNumberBadgeView.m; sourceTree = "<group>"; };
+		F1462E9F203FCF7800D595CF /* BREXNewBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BREXNewBadgeView.m; sourceTree = "<group>"; };
+		F1462EA0203FCF7800D595CF /* BREXDotBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BREXDotBadgeView.m; sourceTree = "<group>"; };
+		F1462EA1203FCF7800D595CF /* BREXNewBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREXNewBadgeView.h; sourceTree = "<group>"; };
+		F1462EA2203FCF7800D595CF /* BREXNumberBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREXNumberBadgeView.h; sourceTree = "<group>"; };
+		F1462EA3203FCF7800D595CF /* BREXBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREXBadgeView.h; sourceTree = "<group>"; };
+		F1462EA8203FDCFD00D595CF /* icon_new@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_new@3x.png"; sourceTree = "<group>"; };
+		F1462EA9203FDCFE00D595CF /* icon_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_new@2x.png"; sourceTree = "<group>"; };
+		F1462EAC203FE2A300D595CF /* unreadBomb_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_3@2x.png"; sourceTree = "<group>"; };
+		F1462EAD203FE2A300D595CF /* unreadBomb_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_4@2x.png"; sourceTree = "<group>"; };
+		F1462EAE203FE2A300D595CF /* unreadBomb_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_1@2x.png"; sourceTree = "<group>"; };
+		F1462EAF203FE2A400D595CF /* unreadBomb_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_2@2x.png"; sourceTree = "<group>"; };
+		F1462EB0203FE2A400D595CF /* unreadBomb_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_5@2x.png"; sourceTree = "<group>"; };
+		F1462EB6203FE2AD00D595CF /* UIView+DragBlast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DragBlast.h"; sourceTree = "<group>"; };
+		F1462EB7203FE2AD00D595CF /* UIView+DragBlast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DragBlast.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1462E39203FCEE800D595CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E51203FCEE800D595CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E5C203FCEE800D595CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1462E33203FCEE800D595CF = {
+			isa = PBXGroup;
+			children = (
+				F1462E3E203FCEE800D595CF /* BREXBadgeViewDemo */,
+				F1462E57203FCEE800D595CF /* BREXBadgeViewDemoTests */,
+				F1462E62203FCEE800D595CF /* BREXBadgeViewDemoUITests */,
+				F1462E3D203FCEE800D595CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1462E3D203FCEE800D595CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1462E3C203FCEE800D595CF /* BREXBadgeViewDemo.app */,
+				F1462E54203FCEE800D595CF /* BREXBadgeViewDemoTests.xctest */,
+				F1462E5F203FCEE800D595CF /* BREXBadgeViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1462E3E203FCEE800D595CF /* BREXBadgeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1462E3F203FCEE800D595CF /* AppDelegate.h */,
+				F1462E40203FCEE800D595CF /* AppDelegate.m */,
+				F1462E42203FCEE800D595CF /* ViewController.h */,
+				F1462E43203FCEE800D595CF /* ViewController.m */,
+				F1462E9B203FCF7800D595CF /* BREXBadge */,
+				F1462E45203FCEE800D595CF /* Main.storyboard */,
+				F1462E48203FCEE800D595CF /* Assets.xcassets */,
+				F1462E4A203FCEE800D595CF /* LaunchScreen.storyboard */,
+				F1462E4D203FCEE800D595CF /* Info.plist */,
+				F1462E4E203FCEE800D595CF /* main.m */,
+			);
+			path = BREXBadgeViewDemo;
+			sourceTree = "<group>";
+		};
+		F1462E57203FCEE800D595CF /* BREXBadgeViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1462E58203FCEE800D595CF /* BREXBadgeViewDemoTests.m */,
+				F1462E5A203FCEE800D595CF /* Info.plist */,
+			);
+			path = BREXBadgeViewDemoTests;
+			sourceTree = "<group>";
+		};
+		F1462E62203FCEE800D595CF /* BREXBadgeViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1462E63203FCEE800D595CF /* BREXBadgeViewDemoUITests.m */,
+				F1462E65203FCEE800D595CF /* Info.plist */,
+			);
+			path = BREXBadgeViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F1462E9B203FCF7800D595CF /* BREXBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F1462EB9203FE86E00D595CF /* image */,
+				F1462EA3203FCF7800D595CF /* BREXBadgeView.h */,
+				F1462E9D203FCF7800D595CF /* BREXBadgeView.m */,
+				F1462E9C203FCF7800D595CF /* BREXDotBadgeView.h */,
+				F1462EA0203FCF7800D595CF /* BREXDotBadgeView.m */,
+				F1462EA2203FCF7800D595CF /* BREXNumberBadgeView.h */,
+				F1462E9E203FCF7800D595CF /* BREXNumberBadgeView.m */,
+				F1462EA1203FCF7800D595CF /* BREXNewBadgeView.h */,
+				F1462E9F203FCF7800D595CF /* BREXNewBadgeView.m */,
+				F1462EB6203FE2AD00D595CF /* UIView+DragBlast.h */,
+				F1462EB7203FE2AD00D595CF /* UIView+DragBlast.m */,
+			);
+			path = BREXBadge;
+			sourceTree = "<group>";
+		};
+		F1462EB9203FE86E00D595CF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F1462EA9203FDCFE00D595CF /* icon_new@2x.png */,
+				F1462EA8203FDCFD00D595CF /* icon_new@3x.png */,
+				F1462EAE203FE2A300D595CF /* unreadBomb_1@2x.png */,
+				F1462EAF203FE2A400D595CF /* unreadBomb_2@2x.png */,
+				F1462EAC203FE2A300D595CF /* unreadBomb_3@2x.png */,
+				F1462EAD203FE2A300D595CF /* unreadBomb_4@2x.png */,
+				F1462EB0203FE2A400D595CF /* unreadBomb_5@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1462E3B203FCEE800D595CF /* BREXBadgeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1462E68203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemo" */;
+			buildPhases = (
+				F1462E38203FCEE800D595CF /* Sources */,
+				F1462E39203FCEE800D595CF /* Frameworks */,
+				F1462E3A203FCEE800D595CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BREXBadgeViewDemo;
+			productName = BREXBadgeViewDemo;
+			productReference = F1462E3C203FCEE800D595CF /* BREXBadgeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1462E53203FCEE800D595CF /* BREXBadgeViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1462E6B203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemoTests" */;
+			buildPhases = (
+				F1462E50203FCEE800D595CF /* Sources */,
+				F1462E51203FCEE800D595CF /* Frameworks */,
+				F1462E52203FCEE800D595CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1462E56203FCEE800D595CF /* PBXTargetDependency */,
+			);
+			name = BREXBadgeViewDemoTests;
+			productName = BREXBadgeViewDemoTests;
+			productReference = F1462E54203FCEE800D595CF /* BREXBadgeViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1462E5E203FCEE800D595CF /* BREXBadgeViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1462E6E203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemoUITests" */;
+			buildPhases = (
+				F1462E5B203FCEE800D595CF /* Sources */,
+				F1462E5C203FCEE800D595CF /* Frameworks */,
+				F1462E5D203FCEE800D595CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1462E61203FCEE800D595CF /* PBXTargetDependency */,
+			);
+			name = BREXBadgeViewDemoUITests;
+			productName = BREXBadgeViewDemoUITests;
+			productReference = F1462E5F203FCEE800D595CF /* BREXBadgeViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1462E34203FCEE800D595CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "毕博洋";
+				TargetAttributes = {
+					F1462E3B203FCEE800D595CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F1462E53203FCEE800D595CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1462E3B203FCEE800D595CF;
+					};
+					F1462E5E203FCEE800D595CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1462E3B203FCEE800D595CF;
+					};
+				};
+			};
+			buildConfigurationList = F1462E37203FCEE800D595CF /* Build configuration list for PBXProject "BREXBadgeViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1462E33203FCEE800D595CF;
+			productRefGroup = F1462E3D203FCEE800D595CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1462E3B203FCEE800D595CF /* BREXBadgeViewDemo */,
+				F1462E53203FCEE800D595CF /* BREXBadgeViewDemoTests */,
+				F1462E5E203FCEE800D595CF /* BREXBadgeViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1462E3A203FCEE800D595CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1462EB4203FE2A400D595CF /* unreadBomb_2@2x.png in Resources */,
+				F1462E4C203FCEE800D595CF /* LaunchScreen.storyboard in Resources */,
+				F1462EB2203FE2A400D595CF /* unreadBomb_4@2x.png in Resources */,
+				F1462E49203FCEE800D595CF /* Assets.xcassets in Resources */,
+				F1462E47203FCEE800D595CF /* Main.storyboard in Resources */,
+				F1462EB1203FE2A400D595CF /* unreadBomb_3@2x.png in Resources */,
+				F1462EAA203FDCFE00D595CF /* icon_new@3x.png in Resources */,
+				F1462EB5203FE2A400D595CF /* unreadBomb_5@2x.png in Resources */,
+				F1462EAB203FDCFE00D595CF /* icon_new@2x.png in Resources */,
+				F1462EB3203FE2A400D595CF /* unreadBomb_1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E52203FCEE800D595CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E5D203FCEE800D595CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1462E38203FCEE800D595CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1462E44203FCEE800D595CF /* ViewController.m in Sources */,
+				F1462EA7203FCF7800D595CF /* BREXDotBadgeView.m in Sources */,
+				F1462EA4203FCF7800D595CF /* BREXBadgeView.m in Sources */,
+				F1462EA6203FCF7800D595CF /* BREXNewBadgeView.m in Sources */,
+				F1462E4F203FCEE800D595CF /* main.m in Sources */,
+				F1462EB8203FE2AD00D595CF /* UIView+DragBlast.m in Sources */,
+				F1462EA5203FCF7800D595CF /* BREXNumberBadgeView.m in Sources */,
+				F1462E41203FCEE800D595CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E50203FCEE800D595CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1462E59203FCEE800D595CF /* BREXBadgeViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1462E5B203FCEE800D595CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1462E64203FCEE800D595CF /* BREXBadgeViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1462E56203FCEE800D595CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1462E3B203FCEE800D595CF /* BREXBadgeViewDemo */;
+			targetProxy = F1462E55203FCEE800D595CF /* PBXContainerItemProxy */;
+		};
+		F1462E61203FCEE800D595CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1462E3B203FCEE800D595CF /* BREXBadgeViewDemo */;
+			targetProxy = F1462E60203FCEE800D595CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1462E45203FCEE800D595CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1462E46203FCEE800D595CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1462E4A203FCEE800D595CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1462E4B203FCEE800D595CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1462E66203FCEE800D595CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1462E67203FCEE800D595CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1462E69203FCEE800D595CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1462E6A203FCEE800D595CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1462E6C203FCEE800D595CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BREXBadgeViewDemo.app/BREXBadgeViewDemo";
+			};
+			name = Debug;
+		};
+		F1462E6D203FCEE800D595CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BREXBadgeViewDemo.app/BREXBadgeViewDemo";
+			};
+			name = Release;
+		};
+		F1462E6F203FCEE800D595CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BREXBadgeViewDemo;
+			};
+			name = Debug;
+		};
+		F1462E70203FCEE800D595CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAY7K7N8E4;
+				INFOPLIST_FILE = BREXBadgeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BiBoyang.BREXBadgeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BREXBadgeViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1462E37203FCEE800D595CF /* Build configuration list for PBXProject "BREXBadgeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1462E66203FCEE800D595CF /* Debug */,
+				F1462E67203FCEE800D595CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1462E68203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1462E69203FCEE800D595CF /* Debug */,
+				F1462E6A203FCEE800D595CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1462E6B203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1462E6C203FCEE800D595CF /* Debug */,
+				F1462E6D203FCEE800D595CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1462E6E203FCEE800D595CF /* Build configuration list for PBXNativeTarget "BREXBadgeViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1462E6F203FCEE800D595CF /* Debug */,
+				F1462E70203FCEE800D595CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1462E34203FCEE800D595CF /* Project object */;
+}
